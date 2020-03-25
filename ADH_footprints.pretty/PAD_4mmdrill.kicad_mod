@@ -1,0 +1,13 @@
+(module PAD_4mmdrill (layer F.Cu) (tedit 5B651882)
+  (fp_text reference NLd1 (at 0 0) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value PAD (at 0 -5.5) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_line (start -5 -4.84) (end 5 -4.84) (layer F.SilkS) (width 1))
+  (fp_line (start 5 -5) (end 5 5) (layer F.SilkS) (width 1))
+  (fp_line (start 5 4.84) (end -5 4.84) (layer F.SilkS) (width 1))
+  (fp_line (start -5 5) (end -5 -5) (layer F.SilkS) (width 1))
+  (pad 1 thru_hole circle (at 0 0) (size 7 7) (drill 4) (layers *.Cu *.Mask))
+)
